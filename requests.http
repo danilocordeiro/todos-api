@@ -1,1 +1,10 @@
 http://localhost:3000/todos
+
+###
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "title": "Teste",
+  "created_by": 10
+}
